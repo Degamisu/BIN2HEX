@@ -34,6 +34,8 @@ int main(int argc, char *argv[]) {
 
     // convert
 
-    for(int i = 0; i < fileSize)
+    for(int i = 0; i < fileSize; i++) {
+        fprintf(outFile, "%02x\n", buffer[i]);
+    }
 
 }
