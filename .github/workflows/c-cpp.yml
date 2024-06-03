@@ -2,8 +2,7 @@ name: C/C++ CI
 
 on:
   workflow_run:
-    branches: [ "main" ]
-  pull_request:
+    workflows: [Run Tests]
     branches: [ "main" ]
 
 jobs:
